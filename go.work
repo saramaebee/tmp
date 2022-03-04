@@ -1,0 +1,9 @@
+go 1.17
+
+use (
+    ./go.mod
+)
+
+replace (
+    golang.org/x/text v0.3.0 => goland.org/x/text v0.3.6
+)
